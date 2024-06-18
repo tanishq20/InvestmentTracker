@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(45deg, #f9e4fc, #d3eaff) 0 0 / 20px 20px,
+    linear-gradient(45deg, #f9e4fc, #d3eaff) 10px 10px / 20px 20px,
+    linear-gradient(45deg, #f9e4fc, #d3eaff) 20px 20px / 20px 20px;
+  background-color: #f9e4fc; /* Fallback color */
+  background-repeat: repeat;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0, 10px 10px, 20px 20px;
+  }
+  100% {
+    background-position: -20px -20px, -10px -10px, 0 0;
+  }
+}

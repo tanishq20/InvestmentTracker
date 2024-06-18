@@ -1,0 +1,12 @@
+/* LandingPage.module.css */
+.landingPage {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #002a53;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
